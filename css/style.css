@@ -1,0 +1,76 @@
+/* media query */
+@media (max-width: 329px) {
+  body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+/* 
+  .header-container {
+    height: 50%;
+    width: 100%;
+    position: sticky;
+    top: 0;
+  } */
+  .header-inner {
+    display: flex;
+    background-color: #151917;
+    padding: 4%;
+  }
+
+  .icon img {
+    width: 15px;
+  }
+  .apple {
+    width: 10%;
+    margin-left: 1.5%;
+    margin-top: 1.5%;
+    opacity: 0.9;
+  }
+  .left-icon-container {
+    width: 55%;
+    margin-top: 1.5%;
+    margin-left: 51%;
+    /* margin-right: 0; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  /* .x-icon{
+
+  } */
+  .x-icon img {
+    width: 12px;
+    height: auto;
+    margin:0 5px;
+
+  }
+  .cart img,
+  .search img,
+  .menu img {
+    padding:0 16px;
+  }
+
+/* items in header */
+ 
+.item-text-container {
+  display: none;
+  width: 375px;
+  height: 581px;
+  background-color: #151917;
+  color: white;
+  position: absolute;
+}
+
+ .item-text-container .item-text h2 {
+    padding-left: 49px;
+    padding-bottom: 0;
+}
+/* .item {
+  display: none;
+  padding: 8px 0;
+  font-size: 28px;
+  font-weight: bold;
+}   */
+} 
